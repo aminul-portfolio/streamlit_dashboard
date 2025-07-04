@@ -6,7 +6,7 @@ import plotly.express as px
 # 1 Load your data
 
 
-df = pd.read_csv(r"C:\Users\doteb\OneDrive\Desktop\pythonProject6\data\trading-journal.csv")
+df = pd.read_csv(r"trading-journal.csv")
 
 
 

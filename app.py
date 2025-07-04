@@ -116,12 +116,11 @@ st.title("8️⃣ Tabs and Navigation")
 tab1, tab2 = st.tabs(["📊 Chart View", "📈 Summary Stats"])
 
 with tab1:
-    st.plotly_chart(fig)
+    fig2 = px.line(df, x="Open", y="Profit", title="Profit Over Time")
+    st.plotly_chart(fig2)
 
 with tab2:
     st.table(df.describe())
-
-
 
 
 

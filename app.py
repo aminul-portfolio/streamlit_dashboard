@@ -6,9 +6,9 @@ import plotly.express as px
 # 1 Load your data
 
 
-df = pd.read_csv(r"trading-journal.csv")
-
-
+import pandas as pd
+df = pd.read_csv("trading-journal.csv")
+print(df.columns)
 
 
 st.title("📊 Trading Journal Dashboard")

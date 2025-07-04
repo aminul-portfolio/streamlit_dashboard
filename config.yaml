@@ -1,0 +1,19 @@
+credentials:
+  usernames:
+    alice:
+      email: alice@example.com
+      name: Alice
+      password: $2b$12$xx/n.Ty0JGjm1V5PG0ek7uSFzf.5Et.JeRLFtylgx8Wt4NQKrZ8WW
+    bob:
+      email: bob@example.com
+      name: Bob
+      password: $2b$12$7XWVaqRyuTfzMLuENiXfe.baLYI38bSMiN2iMaf.b.L9LxP6vv5zm
+
+cookie:
+  expiry_days: 30
+  key: some_signature_key_here
+  name: my_cookie_name
+
+preauthorized:
+  emails:
+    - alice@example.com
